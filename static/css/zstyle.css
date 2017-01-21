@@ -1,0 +1,15 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+    font-family: 'Open Sans', 'Bree Serif', sans-serif;
+}
+
+#logo {
+    height: 20px;
+}
+
+.contentbody {
+    margin-top: 40px;
+}
