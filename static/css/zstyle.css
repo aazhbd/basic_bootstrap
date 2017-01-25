@@ -11,10 +11,6 @@ body {
 }
 
 .contentbody {
-    margin-top: 40px;
+    margin-top: 64px;
     min-height: 1000px;
-}
-
-.search-panel {
-    padding: 10px;
 }
