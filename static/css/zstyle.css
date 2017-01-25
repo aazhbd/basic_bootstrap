@@ -14,3 +14,7 @@ body {
     margin-top: 40px;
     min-height: 1000px;
 }
+
+.search-panel {
+    padding: 10px;
+}
