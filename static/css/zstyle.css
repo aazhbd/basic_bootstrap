@@ -12,4 +12,5 @@ body {
 
 .contentbody {
     margin-top: 40px;
+    min-height: 1000px;
 }
