@@ -7,7 +7,11 @@ body {
 }
 
 #logo {
-    height: 20px;
+    height: 40px;
+}
+
+.logo_wrap {
+    padding: 8px;
 }
 
 .contentbody {
