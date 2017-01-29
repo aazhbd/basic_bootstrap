@@ -17,6 +17,7 @@ body {
 .contentbody {
     margin-top: 64px;
     min-height: 200px;
+    width: 91%;
 }
 
 .title {
