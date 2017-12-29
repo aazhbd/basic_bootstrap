@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Open Sans', 'Bree Serif', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 #logo {
@@ -14,9 +16,11 @@ body {
 }
 
 .contentbody {
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     min-height: 200px;
-    width: 91%;
+    padding: 0;
+    margin: 73px 0 0 0;
+    /*width: 91%;*/
 }
 
 .title {
@@ -58,11 +62,38 @@ body {
 
 /* carousel */
 
+.backcolor {
+    color: black;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+
 div.slide_content {
-    width:auto;
     height:600px;
-    min-width:150px;
-    min-height:100px;
     overflow:hidden;
     display:block;
+}
+
+.single_content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
