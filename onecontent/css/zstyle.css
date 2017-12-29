@@ -54,3 +54,15 @@ body {
     font-weight: 700;
     letter-spacing: 0.1rem;
 }
+
+
+/* carousel */
+
+div.slide_content {
+    width:auto;
+    height:400px;
+    min-width:150px;
+    min-height:100px;
+    overflow:hidden;
+    display:block;
+}
