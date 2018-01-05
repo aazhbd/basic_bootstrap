@@ -69,22 +69,22 @@ footer p {
 
 .carousel-indicators li {
     display: inline-block;
-    width: 8px;
-    height: 8px;
+    width: 20px;
+    height: 4px;
     margin: 10px;
     text-indent: 0;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     background-color: #212529;
     box-shadow: inset 1px 1px 1px 1px #212529;
 }
 
 .carousel-indicators .active {
-    width: 8px;
+    /*width: 8px;
     height: 8px;
-    margin: 10px;
-    background-color: #ffff99;
+    margin: 10px;*/
+    background-color: #fff;
 }
 
 div.slide_content {
