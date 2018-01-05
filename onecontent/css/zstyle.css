@@ -32,7 +32,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto;
-    line-height: 100px;
+    line-height: 20px;
     background: #212529;
 }
 
@@ -41,9 +41,10 @@ footer p {
 }
 
 .navbar-custom {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background: #212529;/*rgba(0, 0, 0, 0.7);*/
+    /*padding-top: 1rem;
+    padding-bottom: 1rem;*/
+    padding: 1rem 0 1rem 0;
+    background: #212529;
 }
 
 .navbar-custom .navbar-brand {
@@ -58,7 +59,6 @@ footer p {
     letter-spacing: 0.1rem;
     color: #fff;
 }
-
 
 /* carousel */
 
