@@ -19,6 +19,13 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+  #selectors {
+    overflow: scroll;
+    max-height: 200px;
+  }
+}
+
 
 #logo {
   font-family: 'LithosPro';
