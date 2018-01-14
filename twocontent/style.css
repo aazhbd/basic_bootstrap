@@ -8,6 +8,11 @@ body {
   padding-top: 54px;
 }
 
+@font-face {
+  font-family: LithosPro;
+  src: url(LithosProRegular.ttf);
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
