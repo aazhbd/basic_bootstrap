@@ -27,3 +27,16 @@ body {
   letter-spacing: -1px;
   height: 40px;
 }
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+}
+
+footer p {
+  text-align: center;
+}
