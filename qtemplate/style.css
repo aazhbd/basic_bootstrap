@@ -21,3 +21,9 @@ body {
 .translations {
   margin-top: 20px;
 }
+
+#logo {
+    font-family: 'LithosPro';
+    letter-spacing: -1px;
+    height: 40px;
+}
