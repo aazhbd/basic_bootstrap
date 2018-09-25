@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@font-face {
+  font-family: LithosPro;
+  src: url(LithosProRegular.ttf);
+}
 
 body {
   font-family: 'Open Sans', 'Bree Serif', sans-serif;
