@@ -5,6 +5,12 @@
   src: url(LithosProRegular.ttf);
 }
 
+@font-face {
+    font-family: AmiriQuran;
+    src: url(AmiriQuran.woff);
+}
+
+
 body {
   font-family: 'Open Sans', 'Bree Serif', sans-serif;
   padding-top: 54px;
@@ -26,4 +32,9 @@ body {
     font-family: 'LithosPro';
     letter-spacing: -1px;
     height: 40px;
+}
+
+.arabic-text {
+    font-family: 'AmiriQuran';
+    font-size: x-large;
 }
