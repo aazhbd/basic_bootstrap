@@ -1,0 +1,28 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.content {
+  padding: 40px;
+}
+
+#footer {
+  position: relative;
+  float: none;
+  text-align: center;
+  margin: auto;
+  color: #999;
+  padding: 10px;
+}
+
+#footer .content {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
