@@ -1,0 +1,36 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 200px;
+    height: 100%;
+}
+
+a{
+    color: teal;
+}
+
+
+@media (min-width: 992px) {
+    .collapse.dont-collapse-sm {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+.page-container {
+    margin-top: 40px;
+    padding: 0 4%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    float: none;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Template</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">quran.conveylive.com</a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#topnavbar"
+                aria-controls="topnavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="topnavbar">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">share</a>
+                </li>
+            </ul>
+
+            <form class="d-flex input-group w-100">
+                <input
+                        type="search"
+                        class="form-control"
+                        placeholder="Search"
+                        aria-label="Search"
+                        aria-describedby="search-addon"
+                />
+                <select name="lang" class="custom-select col-xl-1 col-lg-2 col-md-2 col-sm-2 col-2 my-0">
+                    <option value="{{ lang.iso_code|lower }}" selected>EN</option>
+                    <option value="{{ lang.iso_code|lower }}">DE</option>
+                </select>
+                <span class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </form>
+
+            <div class="md-form my-0 mx-2 white px-2">
+                <input id="selected-chapter" list="select-chapters" value="" placeholder="Jump to Chapter" class="my-0 pl-2 form-control">
+                <datalist id="select-chapters" class="w-100">
+                    {% for m in chapters %}
+                    <option>{{ m.number }} - {{ m.transliteration|simplify }}</option>
+                    {% endfor %}
+                </datalist>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid page-container">
+    <div class="row">
+        <div class="col-md-12 py-4">
+            <div class="alert alert-primary">Temporary Message</div>
+            This page is under construction.
+        </div>
+    </div>
+</div>
+
+
+<footer class="page-footer footer white-text pt-2 mb-0 w-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 py-4">
+                <div class="mb-1 flex-center text-center">
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="ins-ic">
+                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <a class="pin-ic">
+                        <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-4">
+        &copy; 2013 - 2021 <a href="mailto:aazhbd@yahoo.com">AAZ H</a> | <a href="http://www.articulatedlogic.com/">ArticulatedLogic.com</a>
+        | &nbsp;<a href="/">Home</a>
+        | &nbsp;<a href="/info">Info</a>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+</html>
