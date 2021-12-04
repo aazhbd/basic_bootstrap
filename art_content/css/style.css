@@ -1,0 +1,18 @@
+
+
+@media (min-width: 992px) {
+    #intro {
+        margin-top: -58.59px;
+        height: 40vh !important;
+    }
+}
+
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.intro_content {
+    background-image: linear-gradient(20deg, #01c8eb, #021954);
+}
+
